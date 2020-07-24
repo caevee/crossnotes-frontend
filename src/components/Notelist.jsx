@@ -1,27 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Note from "./Note";
-import axios from "axios";
 
-const Notelist = () => {
-  const [test, setTest] = useState("Test");
-  useEffect(() => {
-    async function fetchData() {
-      const result = await axios("https://localhost:3001/notes");
-
-      setTest(result);
-    }
-    fetchData();
-  }, []);
-
+const Notelist = ({ notes, setNotes, fetchNotes }) => {
   return (
     <div>
-      <button>Refresh</button>
-      <h1>{test}</h1>
-      <Note />
-      <Note />
-      <Note />
-      <Note />
-      <Note />
+      {notes.map((item) => {
+        return (
+          <>
+            <Note
+              key={item.id}
+              id={item.id}
+              title={item.title}
+              content={item.content}
+              setNotes={setNotes}
+              fetchNotes={fetchNotes}
+            />
+          </>
+        );
+      })}
     </div>
   );
 };
