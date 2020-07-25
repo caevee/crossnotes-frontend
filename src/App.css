@@ -1,0 +1,22 @@
+/* Color Pattern #FBFDFC,#C8E7F6,#747D92,#F1D1C7,#E8C6BA */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fbfdfc;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 50px auto;
+    width: 50%;
+  }
+}

@@ -1,0 +1,33 @@
+.AddNote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.AddNote input,
+.AddNote textarea {
+  margin: 5px 0;
+  border: 1px solid #f1d1c7;
+  border-radius: 10px;
+  padding: 15px;
+  color: #747d92;
+}
+
+.AddNote textarea {
+  resize: none;
+}
+
+.AddNote button {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  background-color: #c8e7f6;
+  border: 1px solid #f1d1c7;
+  border-radius: 10px;
+  color: #747d92;
+  margin-bottom: 40px;
+}
+
+.AddNote button:focus,
+.AddNote input:focus,
+.AddNote textarea:focus {
+  outline: none;
+}
