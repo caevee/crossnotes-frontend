@@ -26,8 +26,11 @@ const Content = () => {
   }, []);
   return (
     <>
-      <Notelist notes={notes} setNotes={setNotes} fetchNotes={fetchNotes} />
-      <AddNote fetchNotes={fetchNotes} />
+      <div className="container">
+        <h1 style={{ color: "#E8C6BA" }}>Notizen</h1>
+        <Notelist notes={notes} setNotes={setNotes} fetchNotes={fetchNotes} />
+        <AddNote fetchNotes={fetchNotes} />
+      </div>
     </>
   );
 };

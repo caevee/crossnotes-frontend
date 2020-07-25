@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./AddNote.css";
 
 const AddNote = ({ fetchNotes }) => {
   const [title, setTitle] = useState("");
@@ -31,23 +32,23 @@ const AddNote = ({ fetchNotes }) => {
       });
   };
   return (
-    <div>
+    <div className="AddNote">
       <input
         onChange={handleChange}
         name="title"
         type="text"
-        placeholder="Title"
+        placeholder="Notiztitel"
         value={title}
       />
-      <input
+      <textarea
         onChange={handleChange}
         name="content"
         type="text"
-        placeholder="Content"
+        placeholder="Notizinhalt"
         value={content}
       />
       <button onClick={submitNote} type="submit">
-        Add Note
+        <i className="fas fa-plus"></i>
       </button>
     </div>
   );

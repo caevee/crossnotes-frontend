@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Edit from "./Edit";
+import "./Note.css";
 
 const Note = ({ id, title, content, fetchNotes }) => {
   const [edit, setEdit] = useState(false);
@@ -15,26 +16,29 @@ const Note = ({ id, title, content, fetchNotes }) => {
   };
   return (
     <>
-      <div style={{ display: "flex" }}>
-        <p>{id} </p>
-        <p>{title}</p>
-        <p>{content}</p>
+      <div className="Note">
+        <div className="header">
+          <h4>{title}</h4>
+          <p>{content}</p>
+        </div>
 
-        {edit && (
-          <Edit
-            id={id}
-            title={title}
-            content={content}
-            fetchNotes={fetchNotes}
-            setEdit={setEdit}
-          />
-        )}
-        {!edit && (
-          <>
-            <button onClick={() => setEdit(true)}>Edit</button>
-            <button onClick={deleteNote}>Delete</button>
-          </>
-        )}
+        <div className="controls">
+          {edit && (
+            <Edit
+              id={id}
+              title={title}
+              content={content}
+              fetchNotes={fetchNotes}
+              setEdit={setEdit}
+            />
+          )}
+          {!edit && (
+            <>
+              <i onClick={() => setEdit(true)} className="fas fa-edit"></i>
+              <i onClick={deleteNote} className="fas fa-trash"></i>
+            </>
+          )}
+        </div>
       </div>
     </>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import Content from "./components/Content";
-import Notelist from "./components/Notelist";
-import AddNote from "./components/AddNote";
+import "./App.css";
 
 function App() {
   return (
