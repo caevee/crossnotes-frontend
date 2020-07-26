@@ -31,6 +31,7 @@
   color: #747d92;
 }
 
-.Note .controls:hover {
+.Note .controls i:hover {
   cursor: pointer;
+  color: #f1d1c7;
 }

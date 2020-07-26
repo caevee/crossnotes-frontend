@@ -23,15 +23,6 @@ const Note = ({ id, title, content, fetchNotes }) => {
         </div>
 
         <div className="controls">
-          {edit && (
-            <Edit
-              id={id}
-              title={title}
-              content={content}
-              fetchNotes={fetchNotes}
-              setEdit={setEdit}
-            />
-          )}
           {!edit && (
             <>
               <i onClick={() => setEdit(true)} className="fas fa-edit"></i>
@@ -39,6 +30,17 @@ const Note = ({ id, title, content, fetchNotes }) => {
             </>
           )}
         </div>
+      </div>
+      <div>
+        {edit && (
+          <Edit
+            id={id}
+            title={title}
+            content={content}
+            fetchNotes={fetchNotes}
+            setEdit={setEdit}
+          />
+        )}
       </div>
     </>
   );

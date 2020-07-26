@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./Edit.css";
 
 const Edit = ({ id, title, content, fetchNotes, setEdit }) => {
   const [newTitle, setNewTitle] = useState("");
@@ -35,7 +36,7 @@ const Edit = ({ id, title, content, fetchNotes, setEdit }) => {
       });
   };
   return (
-    <div>
+    <div className="Edit">
       <input
         onChange={handleChange}
         name="title"

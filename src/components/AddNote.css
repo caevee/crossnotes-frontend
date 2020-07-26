@@ -25,6 +25,10 @@
   color: #747d92;
   margin-bottom: 40px;
 }
+.AddNote button:hover {
+  background-color: #f1d1c7;
+  color: #fbfdfc;
+}
 
 .AddNote button:focus,
 .AddNote input:focus,
