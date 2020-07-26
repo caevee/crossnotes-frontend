@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crossnotes-frontend/static/css/main.81a7a52c.chunk.css",
+    "main.js": "/crossnotes-frontend/static/js/main.ce1b2c1e.chunk.js",
+    "main.js.map": "/crossnotes-frontend/static/js/main.ce1b2c1e.chunk.js.map",
+    "runtime-main.js": "/crossnotes-frontend/static/js/runtime-main.cffb80fc.js",
+    "runtime-main.js.map": "/crossnotes-frontend/static/js/runtime-main.cffb80fc.js.map",
+    "static/js/2.3918c2c9.chunk.js": "/crossnotes-frontend/static/js/2.3918c2c9.chunk.js",
+    "static/js/2.3918c2c9.chunk.js.map": "/crossnotes-frontend/static/js/2.3918c2c9.chunk.js.map",
+    "index.html": "/crossnotes-frontend/index.html",
+    "precache-manifest.5240fff7b3821ca9d921ed8be8d9e274.js": "/crossnotes-frontend/precache-manifest.5240fff7b3821ca9d921ed8be8d9e274.js",
+    "service-worker.js": "/crossnotes-frontend/service-worker.js",
+    "static/css/main.81a7a52c.chunk.css.map": "/crossnotes-frontend/static/css/main.81a7a52c.chunk.css.map",
+    "static/js/2.3918c2c9.chunk.js.LICENSE.txt": "/crossnotes-frontend/static/js/2.3918c2c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cffb80fc.js",
+    "static/js/2.3918c2c9.chunk.js",
+    "static/css/main.81a7a52c.chunk.css",
+    "static/js/main.ce1b2c1e.chunk.js"
+  ]
+}
