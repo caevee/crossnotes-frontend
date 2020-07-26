@@ -19,6 +19,7 @@
 
 .Note .header p {
   color: #747d92;
+  word-wrap: break-word;
 }
 
 .Note .controls {
