@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crossnotes-frontend/precache-manifest.5240fff7b3821ca9d921ed8be8d9e274.js"
+  "/crossnotes-frontend/precache-manifest.26393b1d8bde7dd60688dd7188c70609.js"
 );
 
 self.addEventListener('message', (event) => {

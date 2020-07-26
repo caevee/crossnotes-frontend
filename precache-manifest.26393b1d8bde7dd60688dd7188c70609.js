@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b94546ec570779a0b66463d848427d9",
+    "revision": "8f7c8118ffb99492ba55a2740e93feb0",
     "url": "/crossnotes-frontend/index.html"
   },
   {
-    "revision": "6ff184c479812232fb48",
+    "revision": "89164c597d589a0daa00",
     "url": "/crossnotes-frontend/static/css/main.81a7a52c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crossnotes-frontend/static/js/2.3918c2c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ff184c479812232fb48",
-    "url": "/crossnotes-frontend/static/js/main.ce1b2c1e.chunk.js"
+    "revision": "89164c597d589a0daa00",
+    "url": "/crossnotes-frontend/static/js/main.2b0889f8.chunk.js"
   },
   {
     "revision": "adbaca2dadf50c399892",
