@@ -5,7 +5,7 @@ import "./Edit.css";
 const Edit = ({ id, title, content, fetchNotes, setEdit }) => {
   const [newTitle, setNewTitle] = useState("");
   const [newContent, setNewContent] = useState("");
-  useEffect(() => {
+  useEffect((title, content) => {
     setNewTitle(title);
     setNewContent(content);
   }, []);
